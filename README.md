@@ -1,8 +1,5 @@
 # OG-Steam-Library
-Library theme for use with <a href="https://github.com/ungstein/OG-Steam">OG-Steam</a> and <a href="https://github.com/PhantomGamers/SteamFriendsPatcher">SteamFriendsPatcher<a>. A lot of unnecessary padding as been removed to free up screen real estate. Transitions and gradients have also been removed.
-
-Update: Live version now available <a href="https://ungstein.github.io/og-steam-library/og-steam-library-live.zip">here!</a>
-This version loads up-to-date files live from GitHub; no files are saved to your computer. If the live version does not appear to be updating, please try deleting Steam's browser cache under `Settings/Web Browser`, then restart Steam.
+Library theme adapted from <a href="https://github.com/ungstein/OG-Steam-Library">OG-Steam-Library</a> for use with <a href="https://github.com/ungstein/Flat-Green-Steam">Flat-Green-Steam</a> and <a href="https://github.com/PhantomGamers/SteamFriendsPatcher">SteamFriendsPatcher<a>. Not a faithful reproduction of the 2009 Steam Library GUI, just an edit of the original <a href="https://github.com/ungstein/OG-Steam-Library">OG-Steam-Library</a> theme so that the Steam Library GUI of <a href="https://github.com/ungstein/Flat-Green-Steam">Flat-Green-Steam</a> stands out less.
 
 Installing
 -
@@ -17,11 +14,3 @@ Uninstalling
 
 * Make sure SteamFriendsPatcher is not set to run on startup (Settings > uncheck "Start with Windows")
 * Delete the **steamui** folder, then restart Steam. This will force Steam to download an extract the current Steam package, giving you the original Library files.
-  
-Preview
--
-![Library-Main](https://i.imgur.com/iGQpX2O.png)
-![Library-GamePage](https://i.imgur.com/mtTseOO.png)
-![Library-AppDetails](https://i.imgur.com/PYlLftU.png)
-![Library-NewCollection](https://i.imgur.com/91nr8si.png)
-![Library-Uninstall](https://i.imgur.com/H7pRyRr.png)
