@@ -2,9 +2,9 @@
 
 :root { /* Let's define colours based on steamscheme.res */
  
-	--LightGreenBG: #5a6a50 !important;
-	--GreenBG: #4c5844 !important;
-	--DarkGreenBG: #3e4637 !important;
+	--LightGreyBG: #747474 !important;
+	--GreyBG: #686a65 !important;
+	--DarkGreyBG: #383635 !important;
 	--BorderBright: #808080 !important;
 	--BorderDark: #282e22 !important;
 	--OffWhite: #d8ded3 !important;
@@ -20,25 +20,25 @@
   display: none !important; }
 
 .appdetailsplaysection_Row_9EHg9 {
-  border: 1px solid var(--LightGreenBG) !important;
+  border: 1px solid var(--LightGreyBG) !important;
   padding: 24px !important; }
 
 .appactivityday_AppActivityDay_S2Fu9 {
   background: transparent !important;
-  border: 1px solid var(--LightGreenBG) !important; }
+  border: 1px solid var(--LightGreyBG) !important; }
 
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
-  border: 1px solid var(--LightGreenBG) !important;
+  border: 1px solid var(--LightGreyBG) !important;
   background: transparent !important; }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
-  background: var(--DarkGreenBG) !important; }
+  background: var(--DarkGreyBG) !important; }
 
 .appdetailssection_Highlight_38t1m {
   background: transparent !important; }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
-  background: var(--DarkGreenBG) !important; }
+  background: var(--DarkGreyBG) !important; }
 
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 {
   margin-right: 16px !important; }
@@ -814,8 +814,8 @@
   box-sizing: border-box;
   border-style: solid;
   border-width: 1px;
-  border-color: var(--LightGreenBG);
-  background: var(--DarkGreenBG);
+  border-color: var(--LightGreyBG);
+  background: var(--DarkGreyBG);
   box-shadow: 0 10px 32px 0px #000000ab;
   opacity: 1.0;
   transition: opacity 200ms;
@@ -952,7 +952,7 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
     background: var(--BorderDark); }
 
 .dropdown_DialogDropDownMenu_30wJO._DialogInputContainer {
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.2);
   margin-top: 2px; }
 
@@ -974,7 +974,7 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
 .tooltip_TextToolTip_2FxbH {
   box-sizing: border-box;
   font-size: 12px;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   border-radius: 0px;
   color: #fff;
   padding: 6px 8px;
@@ -983,12 +983,12 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
   user-select: none;
   border-style: solid;
   border-width: 1px;
-  border-color: var(--LightGreenBG); }
+  border-color: var(--LightGreyBG); }
 
 .tooltip_ToolTipCustom_3XGRk {
   box-sizing: border-box;
   font-size: 12px;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   border-radius: 2px;
   color: #fff;
   padding: 6px 8px;
@@ -997,7 +997,7 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
   user-select: none;
   border-style: solid;
   border-width: 1px;
-  border-color: var(--LightGreenBG); }
+  border-color: var(--LightGreyBG); }
   .tooltip_ToolTipCustom_3XGRk .tooltip_ToolTipTitle_1LhVf {
     color: #fff; }
     .tooltip_ToolTipCustom_3XGRk .tooltip_ToolTipTitle_1LhVf.tooltip_Center_2ZDqE {
@@ -1019,7 +1019,7 @@ html.contextmenu_ContextMenuPopup_14wqd .contextmenu_contextMenuItem_1n7Wl {
   margin-right: 0; }
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   box-sizing: border-box;
   border-style: solid;
   border-width: 0.1px;
@@ -1244,7 +1244,7 @@ body.modals_BodyNoScrollDialog_105OB {
   .savecollectiondialog_SaveCollectionContainer_z-cTL .DialogTextInputBase {
     font-size: 14px;
     text-transform: uppercase;
-	border: 1px solid var(--LightGreenBG) }
+	border: 1px solid var(--LightGreyBG) }
   .savecollectiondialog_SaveCollectionContainer_z-cTL .SVGIcon_DynamicCollection {
     margin-bottom: -17px;
     margin-right: 4px; }
@@ -1270,7 +1270,7 @@ body.modals_BodyNoScrollDialog_105OB {
   .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3.savecollectiondialog_Disabled_3Jmn3:hover {
     pointer-events: none; }
   .savecollectiondialog_TwoOptionsContainer_33bWW .savecollectiondialog_Option_3vDq3 .savecollectiondialog_ActionLabel_25n_z {
-    background: var(--GreenBG);
+    background: var(--GreyBG);
     background-position: 25%;
     background-size: 330% 100%;
     text-transform: uppercase;
@@ -1360,11 +1360,11 @@ body.modals_BodyNoScrollDialog_105OB {
     border-bottom-left-radius: 0px;
 	border-style: solid;
 	border-width: 1px;
-	border-color: var(--LightGreenBG);	}
+	border-color: var(--LightGreyBG);	}
     .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
       padding-left: 32px;
       border-radius: 0;
-      background-color: var(--DarkGreenBG);
+      background-color: var(--DarkGreyBG);
       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACfUlEQVRYhcXWSYhUVxTG8V+LiDYOYAytiwYJRIwSsaMbJ1A0QsABk6AQ0IULF4K9cFg4LAqkRUFF0YAiSCKiiAsVXZgEYnBAIWAgKI0SFXuldkLi0M7SLu7pVCNdVa9emcoHj3Mu7957/u+8Oxz+ZzVAoVCo1G8yWjAGg/AP2vErbuYNXigU9K/QZzxWYAFG9/H+Ko5hPx7mgehX5l0brqG1V/AnuIeX0f4M26RsLH1fAANxDhuifQPrIlgTmsPOwk48wygcwvb3AfATZobfhk9i4t/wFK+lNfAL1mAsTkb/NdhSC0Abpoe/ApvQXWGODizC3mivx5w8AKMV074VB7JOElqFi+EfzAOwOmyH9BV5tCxsM76sBmAiFoe/K2dwuIPT4S+pBmCatLLhhxoAKC7IKdUAfBS2C7drBPgjbDM+zAowMOwjPK8R4Fkvf0hWgMdhP8gyqIKGhX2Dv7ICtIcdgHE1AkwIe0OG+6EH4HwMgK9rBPgm7IUsnXsA7igeHisxOGfw2ZgU/nfVAMC30gJsxJEcwRtxOPxLuFItQBeWhz8fu6sIPlw6hkfiFuZmHfjuZXQUO8JvxY+KKS2leVJl1BLtJsWdUFF9VURr8UK6mD6P55R0TbdLmRqOT7EQU2PcAwyV1s956XR9kAcANuIyNkv3xMJ4SumsVBE14QQ+xs9S0dJZDqBcSXZGSutifC/tlB69wu/YE0G+wJ+4jhlhx0uVVdnjuFJRCsfjaYjJBklH9t8l+t8PqHO9IEpmolwG3lW39E/vlgneo84IWjET1QBUq1IQDfUCKAUxop4ApSD+/R31ACgLUS+AviCWkG0b/hcQX2FfnWP3rbdXsIgAtEnQ2wAAAABJRU5ErkJggg==);
       background-size: 18px 18px;
       background-repeat: no-repeat;
@@ -1373,7 +1373,7 @@ body.modals_BodyNoScrollDialog_105OB {
         padding-left: 34px;
 		background-position: 10px center;}
       .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:hover {
-        background-color: var(--DarkGreenBG);
+        background-color: var(--DarkGreyBG);
         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACfUlEQVRYhcXWSYhUVxTG8V+LiDYOYAytiwYJRIwSsaMbJ1A0QsABk6AQ0IULF4K9cFg4LAqkRUFF0YAiSCKiiAsVXZgEYnBAIWAgKI0SFXuldkLi0M7SLu7pVCNdVa9emcoHj3Mu7957/u+8Oxz+ZzVAoVCo1G8yWjAGg/AP2vErbuYNXigU9K/QZzxWYAFG9/H+Ko5hPx7mgehX5l0brqG1V/AnuIeX0f4M26RsLH1fAANxDhuifQPrIlgTmsPOwk48wygcwvb3AfATZobfhk9i4t/wFK+lNfAL1mAsTkb/NdhSC0Abpoe/ApvQXWGODizC3mivx5w8AKMV074VB7JOElqFi+EfzAOwOmyH9BV5tCxsM76sBmAiFoe/K2dwuIPT4S+pBmCatLLhhxoAKC7IKdUAfBS2C7drBPgjbDM+zAowMOwjPK8R4Fkvf0hWgMdhP8gyqIKGhX2Dv7ICtIcdgHE1AkwIe0OG+6EH4HwMgK9rBPgm7IUsnXsA7igeHisxOGfw2ZgU/nfVAMC30gJsxJEcwRtxOPxLuFItQBeWhz8fu6sIPlw6hkfiFuZmHfjuZXQUO8JvxY+KKS2leVJl1BLtJsWdUFF9VURr8UK6mD6P55R0TbdLmRqOT7EQU2PcAwyV1s956XR9kAcANuIyNkv3xMJ4SumsVBE14QQ+xs9S0dJZDqBcSXZGSutifC/tlB69wu/YE0G+wJ+4jhlhx0uVVdnjuFJRCsfjaYjJBklH9t8l+t8PqHO9IEpmolwG3lW39E/vlgneo84IWjET1QBUq1IQDfUCKAUxop4ApSD+/R31ACgLUS+AviCWkG0b/hcQX2FfnWP3rbdXsIgAtEnQ2wAAAABJRU5ErkJggg==);
         background-size: 18px 18px;
         background-repeat: no-repeat;
@@ -1424,7 +1424,7 @@ body.modals_BodyNoScrollDialog_105OB {
   .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
     box-sizing: border-box;
     position: relative;
-	background-color: var(--GreenBG);
+	background-color: var(--GreyBG);
     color: #fff;
 	font-weight: 100;
     border-style: solid;
@@ -1442,7 +1442,7 @@ body.modals_BodyNoScrollDialog_105OB {
           opacity: 1;
           transform: scale(1); }
       .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-        background-color: var(--GreenBG);
+        background-color: var(--GreyBG);
         z-index: 20;
         position: absolute;
         left: 42px;
@@ -1487,13 +1487,13 @@ body.modals_BodyNoScrollDialog_105OB {
         .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
           fill: gray; }
     .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Disabled_1Gjk2 {
-      background-color: var(--GreenBG); }
+      background-color: var(--GreyBG); }
       .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_AdvancedSearchButton_1TxHd {
         cursor: default; }
         .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
           fill: #424242; }
     .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_, .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover {
-      background-color: var(--GreenBG); }
+      background-color: var(--GreyBG); }
       .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_ .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path, .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path {
         fill: lightgray; }
   .gamelistsearchbar_Container_20QAC .gamelistsearchbar_HeaderListFadeTop_2_ts8 {
@@ -1754,7 +1754,7 @@ body.modals_BodyNoScrollDialog_105OB {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     padding: 4px 32px 4px 32px;
-    background: var(--GreenBG);
+    background: var(--GreyBG);
 	border-style: solid;
     border-width: 1px;
     border-color: var(--BorderBright) var(--BorderDark) transparent var(--BorderBright);
@@ -1787,7 +1787,7 @@ body.modals_BodyNoScrollDialog_105OB {
 
 .allcollections_ScrollContainer_u1xD3 {
   box-sizing: border-box;
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   padding: 24px;
   padding-bottom: 0;
   border: 1px solid rgba(0, 0, 0, 0);
@@ -1842,7 +1842,7 @@ body.modals_BodyNoScrollDialog_105OB {
 .allcollections_Collection_3IWn- {
   box-sizing: border-box;
   width: 100%;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   position: relative;
   overflow: hidden;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
@@ -1985,7 +1985,7 @@ body.modals_BodyNoScrollDialog_105OB {
     font-size: 10px;
     letter-spacing: 1px; }
   .allcollections_Collection_3IWn-:hover {
-    background: var(--LightGreenBG);
+    background: var(--LightGreyBG);
     box-shadow: 0px 14px 22px 0px rgba(0, 0, 0, 0.3);
     cursor: pointer; }
     .allcollections_Collection_3IWn-:hover .allcollections_AppGrid_2UWA0 {
@@ -2009,7 +2009,7 @@ body.modals_BodyNoScrollDialog_105OB {
     border: 2px dashed var(--BorderBright); }
   .allcollections_Collection_3IWn-.allcollections_DropTarget_2AN97 {
     border: 2px solid var(--BorderBright);
-    background: var(--LightGreenBG); }
+    background: var(--LightGreyBG); }
   .allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
     font-size: 48px;
     font-weight: 100;
@@ -2581,7 +2581,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   height: 100%;
   display: flex;
   flex-direction: row;
-  background-color: var(--DarkGreenBG); }
+  background-color: var(--DarkGreyBG); }
   .library_Container_3xRRJ.library_IsResizingLeftList_2ZP8e {
     cursor: ew-resize !important;
     user-select: none; }
@@ -2599,21 +2599,21 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   width: 4px;
   border: 3px solid transparent;
   background-image: none;
-  background-color: var(--LightGreenBG); }
+  background-color: var(--LightGreyBG); }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-track, .library_Container_3xRRJ *::-webkit-scrollbar-button, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-track, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-button {
   display: none; }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb:hover, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:hover {
-  background-color: var(--LightGreenBG);
+  background-color: var(--LightGreyBG);
   background-clip: padding-box; }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb:active, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:active {
-  background-color: var(--LightGreenBG);
+  background-color: var(--LightGreyBG);
   border: 2px solid transparent; }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-corner, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-corner {
-  background-color: var(--LightGreenBG); }
+  background-color: var(--LightGreyBG); }
 
 .library_MainPanel_3BFcm {
   flex-grow: 1;
@@ -2663,15 +2663,15 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   width: 8px;
   height: calc( 100%);
   flex-shrink: 0;
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   min-width: 8px;
   z-index: 12; }
   .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_ {
     cursor: ew-resize; }
   .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_:hover {
-    background-color: var(--GreenBG); }
+    background-color: var(--GreyBG); }
   .library_IsResizingLeftList_2ZP8e .library_LibraryWindowDivider_276E6 {
-    background-color: var(--GreenBG); }
+    background-color: var(--GreyBG); }
 
 /* stylelint-disable */
 
@@ -2697,7 +2697,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: var(--DarkGreenBG); }
+  background: var(--DarkGreyBG); }
 
 .library_AppDetailsOverlayTransitionGroup_37MAY {
   pointer-events: none;
@@ -2898,7 +2898,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
     column-gap: 20px;
     row-gap: 5px;
     padding: 5px 15px;
-    background-color: var(--DarkGreenBG);
+    background-color: var(--DarkGreyBG);
     margin-left: 20px;
     border-radius: 3px; }
     .appproperties_AppProperties_1FyBL .DialogBody .appproperties_SteamInputStatusGrid_3lj3- .appproperties_Controller_nsJRd {
@@ -2930,10 +2930,10 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
     margin-top: 20px;
     overflow-y: auto; }
     .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO::-webkit-scrollbar-thumb {
-      background-color: var(--LightGreenBG);
+      background-color: var(--LightGreyBG);
       background-clip: padding-box; }
     .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO::-webkit-scrollbar-thumb:hover {
-      background-color: var(--LightGreenBG);
+      background-color: var(--LightGreyBG);
       background-clip: padding-box; }
     .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 {
       position: sticky;
@@ -3009,17 +3009,17 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
     overflow-y: auto;
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A::-webkit-scrollbar-thumb {
-    background-color: var(--LightGreenBG);
+    background-color: var(--LightGreyBG);
     background-clip: padding-box;
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A::-webkit-scrollbar-thumb:hover {
-    background-color: var(--LightGreenBG);
+    background-color: var(--LightGreyBG);
     background-clip: padding-box;
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_WorkshopHeader_2TJyz {
     position: sticky;
     top: 0;
-    background: var(--GreenBG);
+    background: var(--GreyBG);
     z-index: 1;
     padding: 8px;
     display: flex;
@@ -3028,7 +3028,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
     cursor: pointer;
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_WorkshopHeader_2TJyz:hover {
-    background: var(--GreenBG);
+    background: var(--GreyBG);
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_WorkshopHeader_2TJyz .appproperties_TriangleHide_1A_JF {
     margin-left: 4px;
@@ -3218,7 +3218,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-	background: var(--GreenBG);
+	background: var(--GreyBG);
     box-shadow: 0 0 12px #00000025; }
   .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_AppDetailsSectionHasLabel_2G5B7 {
     margin-top: 6px; }
@@ -3230,7 +3230,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
   padding: 10px; }
 
 .appdetailssection_Highlight_38t1m {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   box-shadow: 1px 2px 12px 1px rgba(26, 27, 37, 0.253);
   padding: 10px;
   font-size: 13px;
@@ -3242,7 +3242,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 /* Because of the way Dialog.Button is styled we need a high degree of specifity in this rule */
 button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   box-sizing: border-box;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   color: #fff;
   font-size: 12px;
   font-family: "Motiva Sans", Arial, Helvetica, Sans-serif;
@@ -3253,7 +3253,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
   width: fit-content;
   margin-bottom: 0; }
   button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin:hover, button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin:active:hover, button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin:active {
-    background: var(--GreenBG);
+    background: var(--GreyBG);
     color: #fff;
     box-shadow: none; }
   button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin:hover::before {
@@ -3264,33 +3264,33 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
     padding: 4px 12px;
     align-self: center;
 	box-sizing: border-box;
-    background: var(--GreenBG);
+    background: var(--GreyBG);
 	color: #fff;
 	font-size: 12px; }
     button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Center_2bJqZ:hover {
-      background-color: var(--GreenBG);
+      background-color: var(--GreyBG);
       cursor: pointer; }
   button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY {
     text-align: right;
     margin-top: 8px;
     padding: 4px 12px; }
     button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_BottomRight_3nJyY:hover {
-      background-color: var(--GreenBG);
+      background-color: var(--GreyBG);
       cursor: pointer; }
   button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL {
     text-align: left;
     padding: 4px 12px; }
     button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Left_Q7tUL:hover {
-      background-color: var(--GreenBG);
+      background-color: var(--GreyBG);
       color: #fff;
       cursor: pointer; }
   button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh {
     text-align: left;
     padding: 4px 12px;
     color: #fff;
-    background-color: var(--GreenBG); }
+    background-color: var(--GreyBG); }
     button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_MoreVisible_SLpyh:hover {
-      background-color: var(--GreenBG);
+      background-color: var(--GreyBG);
       color: #fff;
       cursor: pointer; }
 
@@ -3482,7 +3482,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin {
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
-    background: var(--GreenBG);
+    background: var(--GreyBG);
     color: var(--Label);
     cursor: default; }
 
@@ -4211,7 +4211,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   height: 32px;
   padding: 7px;
   border-radius: 4px;
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   cursor: pointer;
   transition: background-color .12s ease-in-out; }
 .appdetailsplaysection_MenuButton_3qDWQ:active {
@@ -4223,11 +4223,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   height: 32px;
   padding: 7px;
   border-radius: 4px;
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   cursor: pointer;
   transition: background-color .12s ease-in-out; }
   .appdetailsplaysection_MenuButton_3qDWQ.appdetailsplaysection_MenuActive_fyJia {
-    background-color: var(--GreenBG) !important; }
+    background-color: var(--GreyBG) !important; }
   .appdetailsplaysection_MenuButton_3qDWQ.Focusable:focus {
     outline: none; }
   .appdetailsplaysection_MenuButton_3qDWQ.appdetailsplaysection_FavoriteButton_21hXW svg path {
@@ -4262,7 +4262,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
     .appdetailsplaysection_MenuButton_3qDWQ:hover .appdetailsplaysection_DotDotDot_zvLq1 svg polyline {
       stroke: #fff; }
     .appdetailsplaysection_MenuButton_3qDWQ:hover .appdetailsplaysection_DotDotDot_zvLq1 .SVGIcon_Information .I {
-      background-color: var(--GreenBG);
+      background-color: var(--GreyBG);
 	  fill: #fff; }
   .appdetailsplaysection_MenuButton_3qDWQ svg {
     fill: rgba(255, 255, 255, 0.5);
@@ -4278,9 +4278,9 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV {
   .appdetailsplaysection_MenuButton_3qDWQ .Arrow2 {
     transform: translateX(-12px); }
   .appdetailsplaysection_MenuButton_3qDWQ:hover {
-      background-color: var(--GreenBG); }
+      background-color: var(--GreyBG); }
     .appdetailsplaysection_MenuButton_3qDWQ:hover .SVGIcon_Settings path {
-	  background-color: var(--GreenBG);
+	  background-color: var(--GreyBG);
       fill: #fff; }
     .appdetailsplaysection_MenuButton_3qDWQ:hover .SVGIcon_DoubleArrow polyline {
       stroke: #fff; }
@@ -4482,20 +4482,20 @@ div.UltraNarrowRightPanel .appdetailsplaysection_MiniAchievements_UAhWi {
     flex-grow: 0; }
 
 .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   box-shadow: none;
   transition: background 0.21s ease-in-out; }
   div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
-    background: var(--DarkGreenBG); }
+    background: var(--DarkGreyBG); }
 
 .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
   backdrop-filter: blur(8px);
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   margin-top: -15px;
   padding-top: 15px; }
   div.LowPerfMode .appdetailsplaysection_StickyHeader_39Rhe .appdetailsplaysection_Glassy_3DeO9 {
     backdrop-filter: none;
-    background-color: var(--DarkGreenBG); }
+    background-color: var(--DarkGreyBG); }
 
 .appdetailsplaysection_StickyHeaderShadow_2_86Q {
   width: 100%;
@@ -4588,7 +4588,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 /* stylelint-enable */
 .appactivityday_AppActivityDay_S2Fu9 {
   margin-bottom: 16px;
-	background: var(--GreenBG);
+	background: var(--GreyBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -4929,7 +4929,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 .appactivityday_PartnerEventPlaceholder_23WVg {
   min-height: 182px;
   margin-bottom: 26px;
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   color: var(--Label);
   display: flex;
   align-items: center;
@@ -4997,10 +4997,10 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   height: 178px; }
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   transition: all 0.2s ease-out; }
   .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover {
-    background: var(--GreenBG);
+    background: var(--GreyBG);
     cursor: pointer; }
     .appactivityday_PartnerEventMediumImage_Container_1HZy7:hover .appactivityday_PartnerEventMediumImage_Title_1gljE {
       color: #fff; }
@@ -5055,7 +5055,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   border-image-repeat: stretch;
   border-image-slice: 7;
   box-shadow: 0 0 12px #00000025;
-  background: var(--GreenBG); }
+  background: var(--GreyBG); }
   .appactivityday_PartnerEvent_1AYE1:last-child {
     margin-bottom: 8px; }
 
@@ -5339,7 +5339,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   overflow-y: hidden; }
 
 .appdetailsachievementssection_InnerContainer_jxCcU {
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   width: 100%; }
 
 .appdetailsachievementssection_InnerContainerLower_1qtrO {
@@ -5409,7 +5409,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
 .appdetailsachievementssection_AdditionalItem_2aVnD {
   margin-right: 8px;
   cursor: pointer;
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   height: 48px; }
   .appdetailsachievementssection_AdditionalItem_2aVnD .appdetailsachievementssection_TextSection_1s_9c {
     display: none; }
@@ -5444,7 +5444,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   vertical-align: middle;
   position: relative;
   box-shadow: 0 0 3px #0005;
-  background: var(--GreenBG); }
+  background: var(--GreyBG); }
 
 .appdetailsachievementssection_Icon_zcasg {
   width: 48px;
@@ -5461,7 +5461,7 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4 {
   .appdetailsachievementssection_Icon_zcasg.appdetailsachievementssection_IconGlow_2V3rF {
     box-shadow: 0px 0px 2px 1px rgba(255, 184, 78, 0.6), 0px 0px 16px 1px rgba(255, 184, 78, 0.4); }
   .appdetailsachievementssection_Icon_zcasg:after {
-    background: linear-gradient(to right, #3b414a 0%, var(--GreenBG) 95%);
+    background: linear-gradient(to right, #3b414a 0%, var(--GreyBG) 95%);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -5782,7 +5782,7 @@ img.emoticon_emoticon_AB86v {
 .emoticon_TopDivider_2A8Fl {
   height: 2px;
   width: 90%;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -5791,7 +5791,7 @@ img.emoticon_emoticon_AB86v {
 .emoticon_BottomDivider_2IZ1K {
   height: 2px;
   width: 90%;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -5925,7 +5925,7 @@ img.emoticon_emoticon_AB86v {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border-bottom: 2px solid var(--DarkGreenBG); }
+  border-bottom: 2px solid var(--DarkGreyBG); }
 
 .addonpicker_Tab_2CJ0L {
   width: 32px;
@@ -6002,9 +6002,9 @@ img.emoticon_emoticon_AB86v {
   .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z- {
     box-sizing: border-box;
     height: 28px;
-    background-color: var(--DarkGreenBG); }
+    background-color: var(--DarkGreyBG); }
     .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z-:hover, .addonpicker_FilterInputContainer_EuFeP .addonpicker_FilterInput_2l4z-:focus {
-      background-color: var(--DarkGreenBG) !important; }
+      background-color: var(--DarkGreyBG) !important; }
 
 .addonpicker_AddonPickerMessage_2wUk7 {
   font-size: 12px;
@@ -6415,9 +6415,9 @@ img.emoticon_emoticon_AB86v {
   box-sizing: border-box;
   padding: 0px 10px; }
   .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
-    border: 1px solid var(--LightGreenBG);
+    border: 1px solid var(--LightGreyBG);
     border-radius: 4px;
-    background: var(--DarkGreenBG);
+    background: var(--DarkGreyBG);
     box-shadow: inset 0px 0px 4px transparent;
     color: var(--Label);
     resize: none;
@@ -6432,7 +6432,7 @@ img.emoticon_emoticon_AB86v {
       color: rgba(148, 161, 166, 0.562); }
     .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus {
       outline: none;
-      background: var(--DarkGreenBG);
+      background: var(--DarkGreyBG);
       box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.4); }
       .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus::placeholder {
         margin-left: 2px; }
@@ -6452,14 +6452,14 @@ img.emoticon_emoticon_AB86v {
     .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_FormattingSpacer_33rj8 {
       flex: 2; }
     .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu {
-	  background-color: var(--GreenBG);
+	  background-color: var(--GreyBG);
       color: #8492a4;
 	  box-sizing: border-box;
 	  border-style: solid;
       border-width: 1px;
       border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright); }
       .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu:hover {
-        background-color: var(--GreenBG);
+        background-color: var(--GreyBG);
         color: #fff;
 		box-sizing: border-box;
 	    border-style: solid;
@@ -6491,7 +6491,7 @@ img.emoticon_emoticon_AB86v {
       .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_EmoticonButton_bACIu:hover path {
         stroke: #fff; }
     .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA {
-      background-color: var(--GreenBG);
+      background-color: var(--GreyBG);
       border: none;
       border-radius: 2px;
       padding: 10px 18px;
@@ -6508,7 +6508,7 @@ img.emoticon_emoticon_AB86v {
         margin: 0px;
         color: var(--Label); }
         .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
-		  background: var(--GreenBG);
+		  background: var(--GreyBG);
           background-position: 25%;
           background-size: 330% 100%;
           color: white;
@@ -6520,7 +6520,7 @@ img.emoticon_emoticon_AB86v {
 	      border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright); }
 					   
         .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:hover {
-          background: var(--GreenBG);
+          background: var(--GreyBG);
           background-position: 0%;
           background-size: 330% 100%;
           color: #fff;
@@ -6530,7 +6530,7 @@ img.emoticon_emoticon_AB86v {
 		  border-width: 1px;
 		  border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright); }
         .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:active {
-          background: var(--GreenBG);
+          background: var(--GreyBG);
           background-position: 0%;
           background-size: 330% 100%;
           color: #fff;
@@ -6721,7 +6721,7 @@ button.DialogButton {
   box-sizing: content-box; }
 
 button.DialogButton {
-  background: var(--GreenBG) !important;
+  background: var(--GreyBG) !important;
   color: #fff;
   font-size: 12px;	
   box-sizing: border-box;
@@ -6769,7 +6769,7 @@ button.DialogButton::-moz-focus-inner {
   z-index: 1500; }
 
 .FullModalOverlay.NotReadyToRender {
-  background: var(--GreenBG); }
+  background: var(--GreyBG); }
 
 .FullModalOverlay .ModalPosition_Content {
   height: initial;
@@ -6922,7 +6922,7 @@ button.DialogButton::-moz-focus-inner {
 
 .DialogContent,
 .DialogContentTransition {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   box-sizing: border-box;
   border-style: solid;
   border-width: 0.1px;
@@ -7154,7 +7154,7 @@ button.DialogButton::-moz-focus-inner {
   margin-top: 4px; }
 
 .DialogInput {
-  border: 1px solid var(--LightGreenBG); }
+  border: 1px solid var(--LightGreyBG); }
 
 .DialogLabelExplainer.Left {
   text-align: left; }
@@ -7174,7 +7174,7 @@ button.DialogButton::-moz-focus-inner {
 
 .DialogTextInputBase,
 ._DialogInputContainer {
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   color: #fff;
   font-size: 12px;
   font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
@@ -7187,15 +7187,15 @@ button.DialogButton::-moz-focus-inner {
   transition: all .2s ease-in-out; }
 
 .DialogTextInputBase:focus {
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   box-shadow: inset 1px 1px 8px #000a;
   padding-left: 11px; }
 
 .DialogTextInputBase:not(disabled):hover {
-  background: var(--DarkGreenBG); }
+  background: var(--DarkGreyBG); }
 
 .DialogTextInputBase:disabled:hover {
-  background: var(--GreenBG); }
+  background: var(--GreyBG); }
 
 ._DialogInputContainer {
   padding: 2px;
@@ -7280,7 +7280,7 @@ button.DialogButton.DialogInput_CopyAction {
 button.DialogButton {
   display: block;
   line-height: 22px;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   color: #fff;
   box-sizing: border-box;
   border-style: solid;
@@ -7335,7 +7335,7 @@ button.DialogButton.DialogButtonTall {
   padding-bottom: 16px; }
 
 button.DialogButton.Primary {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
   background-position: 25%;
   background-size: 330% 100%; }
@@ -7366,7 +7366,7 @@ button.DialogButton.Secondary.Off {
 
 button.DialogButton:enabled:active,
 button.DialogButton:enabled:active:hover {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
 						 
   box-sizing: border-box;
   border-style: solid;
@@ -7377,7 +7377,7 @@ button.DialogButton:enabled:active:hover {
   transition-duration: .04s; }
 
 button.DialogButton.Primary:hover {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   background-position: 0%;
   background-size: 330% 100%;
   color: #fff;
@@ -7388,7 +7388,7 @@ button.DialogButton.Primary:hover {
 
 button.DialogButton.Primary:enabled:active,
 button.DialogButton.Primary:enabled:hover:active {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   background-position: 40%;
   transition-duration: .04s;
   box-sizing: border-box;
@@ -7400,7 +7400,7 @@ button.DialogButton:hover {}
 
 button.DialogButton:disabled,
 button.DialogButton:disabled:hover {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   color: #464d58;
   box-shadow: none;
   cursor: default; }
@@ -7722,7 +7722,7 @@ button.TextButton:focus {
 .DialogCheckbox {
   width: 16px;
   height: 16px;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   padding: 0;
   box-shadow: inset 1px 0.5px 3px rgba(1, 1, 1, 0.4);
   cursor: pointer;
@@ -7768,7 +7768,7 @@ button.TextButton:focus {
 .DialogCheckbox:hover:not(.Disabled),
 .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled),
 .DialogCheckbox:focus:not(.Disabled) {
-  background-color: var(--DarkGreenBG); }
+  background-color: var(--DarkGreyBG); }
 
 .DialogCheckbox_Container:focus,
 .DialogCheckbox:focus {
@@ -8050,13 +8050,13 @@ body.in_global_drag .title-area {
   margin-top: 10px; }
 
 .GenericConfirmDialog .DialogButton {
-  background: var(--GreenBG) !important;
+  background: var(--GreyBG) !important;
   min-width: 200px;
   margin-left: 8px;
   margin-right: 0px;  }
 
 .GenericConfirmDialog .DialogButton:hover {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   min-width: 200px;
   margin-left: 8px; }
 
@@ -8155,7 +8155,7 @@ body.in_global_drag .title-area {
 .WaitingForInterFaceReadyContainer {
   width: 100%;
   height: 100%;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   display: flex; }
 
 .WaitingForInterFaceReadyThrobber {
@@ -8281,7 +8281,7 @@ body.in_global_drag .title-area {
     margin-left: 6px;
     width: 20px;
     height: 20px;
-    background: var(--DarkGreenBG);
+    background: var(--DarkGreyBG);
     color: var(--Label);
     padding: 4px;
     opacity: 0.5;
@@ -8324,7 +8324,7 @@ body.in_global_drag .title-area {
     user-select: none; }
 
 .comment_thread_ActivityCommentThread_39nna {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   display: flex;
   flex-direction: column;
   border-radius: 2px;
@@ -8645,7 +8645,7 @@ body.in_global_drag .title-area {
 .artworkmodal_ModalBox_1Lfu7 {
   display: flex;
   flex-direction: column;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   box-shadow: none;
   border-style: solid;
   border-width: 1px;
@@ -8662,11 +8662,11 @@ body.in_global_drag .title-area {
   box-sizing: border-box; }
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar {
 	display: none; }
-/*	background-color: var(--GreenBG);
+/*	background-color: var(--GreyBG);
     width: 12px; }
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-thumb {
     display: none; }
-	background-color: var(--GreenBG);				
+	background-color: var(--GreyBG);				
 					
     width: 4px;
     border: 3px solid transparent;
@@ -8674,10 +8674,10 @@ body.in_global_drag .title-area {
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-track, .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-button {
     display: none; }
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-thumb:hover {
-    background-color: var(--GreenBG);
+    background-color: var(--GreyBG);
     background-clip: padding-box; }
   .artworkmodal_ArtworkModalContainer_bAmL1::-webkit-scrollbar-corner {
-    background-color: var(--GreenBG); }
+    background-color: var(--GreyBG); }
 
 .artworkmodal_ArtworkModalDetails_1sEyq {
   display: flex;
@@ -8795,11 +8795,11 @@ body.in_global_drag .title-area {
   display: none; }
 
 .artworkmodal_ArtworkModalDetails_1sEyq *::-webkit-scrollbar-thumb:hover {
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   background-clip: padding-box; }
 
 .artworkmodal_ArtworkModalDetails_1sEyq *::-webkit-scrollbar-corner {
-  background-color: var(--GreenBG); }
+  background-color: var(--GreyBG); }
 
 .artworkmodal_ArtworkContainer_1DyzX {
   display: flex;
@@ -8827,7 +8827,7 @@ body.in_global_drag .title-area {
   height: 20px;
   border-radius: 2px;
   cursor: pointer;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
 				 
   border-style: solid;
   border-width: 1px;
@@ -8840,7 +8840,7 @@ body.in_global_drag .title-area {
   .sharedialog_ShareButton_1FFkd span {
     margin-left: 10px; }
   .sharedialog_ShareButton_1FFkd:hover {
-    background: var(--GreenBG);
+    background: var(--GreyBG);
     color: #fff;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5); }
   .sharedialog_ShareButton_1FFkd:active {
@@ -9056,7 +9056,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     display: grid; }
 
 .appdetailscommunityfeed_CommunityItem_3QS6O {
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   border-radius: 6px;
   border-style: solid;
   border-width: 1px;
@@ -9370,7 +9370,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   color: #fff;
   font-size: 12px;
   border-radius: 2px;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   border-style: solid;
   border-width: 1px;
   border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -9378,14 +9378,14 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   transition-duration: 0.2s;
   transition-timing-function: ease-out; }
   .appdetailscommunityfeed_LoadContentButton_2RSxE:hover {
-    background-color: var(--GreenBG);
+    background-color: var(--GreyBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
     color: #fff;
     cursor: pointer; }
   .appdetailscommunityfeed_LoadContentButton_2RSxE:active {
-    background-color: var(--GreenBG);
+    background-color: var(--GreyBG);
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
     color: #fff;
     cursor: pointer; }
@@ -9629,18 +9629,18 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     color: #fff;
     font-size: 12px;
     border-radius: 2px;
-    background: var(--GreenBG);
+    background: var(--GreyBG);
 	border-style: solid;
     border-width: 1px;
     border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
     transition: all 0.2s ease-out; }
     .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:hover {
-      background-color: var(--GreenBG);
+      background-color: var(--GreyBG);
 	  border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
       color: #fff;
       cursor: pointer; }
 	.appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_FetchMoreContainer_39Zur:active {
-      background-color: var(--GreenBG);
+      background-color: var(--GreyBG);
 	  border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
       color: #fff;
       cursor: pointer; }
@@ -9670,7 +9670,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   margin-bottom: 12px;
   overflow: hidden;
   min-height: 60px;
-  border: 2px dashed var(--GreenBG);
+  border: 2px dashed var(--GreyBG);
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -9679,7 +9679,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     text-align: center; }
 
 .appdetailsactivitysection_Loading_3UShz {
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   opacity: 0.1;
   animation-name: appdetailsactivitysection_LoadingLoop_3jyLf;
   animation-duration: 1.0s;
@@ -10008,10 +10008,10 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailssoundtrack_ArtworkModalContainer_1ye7X::-webkit-scrollbar-track, .appdetailssoundtrack_ArtworkModalContainer_1ye7X::-webkit-scrollbar-button {
     display: none; }
   .appdetailssoundtrack_ArtworkModalContainer_1ye7X::-webkit-scrollbar-thumb:hover {
-    background-color: var(--GreenBG);
+    background-color: var(--GreyBG);
     background-clip: padding-box; }
   .appdetailssoundtrack_ArtworkModalContainer_1ye7X::-webkit-scrollbar-corner {
-    background-color: var(--GreenBG); }
+    background-color: var(--GreyBG); }
 
 .appdetailssoundtrack_ArtworkModalDetails_SLVVM {
   display: flex;
@@ -10502,7 +10502,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .writereview_CompactThumbButton_35_Og {
   padding: 6px 15px;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   color: #fff;
   border-style: solid;
   border-width: 1px;
@@ -10519,7 +10519,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 				  
 .writereview_CompactThumbButton_35_Og:active {
   padding: 6px 15px;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   color: #fff;
   border-style: solid;
   border-width: 1px;
@@ -10536,7 +10536,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .writereview_ReviewThumbButton_1kCN0 {
   padding: 7px 28px;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
 				  
   border-style: solid;
   border-width: 1px;
@@ -10552,7 +10552,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   border-radius: 2px; }
 .writereview_ReviewThumbButton_1kCN0:active {
   padding: 7px 28px;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
 				  
   border-style: solid;
   border-width: 1px;
@@ -10567,7 +10567,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   outline: none;
   border-radius: 2px; }
   .writereview_ReviewThumbButton_1kCN0.writereview_Selected_Z3L6K {
-    background: var(--GreenBG);
+    background: var(--GreyBG);
     color: #FFF; }
     .writereview_ReviewThumbButton_1kCN0.writereview_Selected_Z3L6K span {
       padding-left: 15px; }
@@ -10580,7 +10580,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     padding-left: 0px; }
 
 .writereview_OptionButton_2gJ9F:hover {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   background-position: 0%;
   background-size: 330% 100%;
   color: #fff; }
@@ -10589,7 +10589,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   text-decoration: none !important;
   color: #fff !important;
   background: #417a9b;
-  background: var(--GreenBG); }
+  background: var(--GreyBG); }
   .writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K):hover .writereview_ThumbIcon_2Jkk- {
     fill: #FFF; }
 
@@ -10600,7 +10600,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   width: calc( 100% - 6px);
   min-height: 100px;
   resize: vertical;
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   color: #fff;
   font-family: "Motiva Sans", Arial, Helvetica, sans-serif; }
 
@@ -10696,7 +10696,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   /* parallax background image on scroll */
@@ -10723,7 +10723,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416 {
   background-image: none;
-  background: var(--DarkGreenBG); }
+  background: var(--DarkGreyBG); }
 
 .appdetails_PlayBar_2L3s2 {
   opacity: 0;
@@ -10748,7 +10748,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   position: relative; }
 
 .appdetailsreviewsection_InnerContainer_1dW9d {
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   width: 100%; }
 
 .appdetailsreviewsection_InnerContainerLower2_kr3AV {
@@ -10908,7 +10908,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 .appdetailsreviewsection_VoteButton_3jaOU {
   display: flex !important;
   height: 33px;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   border-radius: 2px;
   border: none; }
 
@@ -10926,7 +10926,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
     padding: 4px 10px 4px 10px;
     flex-direction: row;
-    background: var(--GreenBG);
+    background: var(--GreyBG);
     box-sizing: border-box; }
 												
 					 
@@ -10959,7 +10959,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailsprimarylinkssection_LinkInner_7k4qm:last-child {
     padding-right: 0px; }
   .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY {
-    background: var(--GreenBG);
+    background: var(--GreyBG);
 	box-sizing: border-box;
 	border-style: solid;
     border-width: 1px;
@@ -10981,7 +10981,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       .FocusGroup .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:focus-within .appdetailsprimarylinkssection_Text_2sNDj {
         color: #fff; }
     .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover {
-      background-color: var(--GreenBG);
+      background-color: var(--GreyBG);
       cursor: pointer; }
       .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover .appdetailsprimarylinkssection_Text_2sNDj {
         color: #fff; }
@@ -10993,7 +10993,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .appdetailsprimarylinkssection_NavButton_2NqVq {
   box-sizing: border-box;
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   height: 38px;
   border: none;
   border-radius: 4px;
@@ -11007,7 +11007,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   align-items: center;
   transition: all 0.2s ease-in-out; }
   .appdetailsprimarylinkssection_NavButton_2NqVq:hover {
-    background-color: var(--GreenBG);
+    background-color: var(--GreyBG);
     color: #fff; }
     .appdetailsprimarylinkssection_NavButton_2NqVq:hover .appdetailsprimarylinkssection_Label_2yAhd {
       color: #fff; }
@@ -11105,7 +11105,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
       color: #9f9fa0; }
 
 .appdetailsworkshopsection_WorkshopContainer_176QJ {
-  background: url(/images/workshopbackground.png) var(--GreenBG);
+  background: url(/images/workshopbackground.png) var(--GreyBG);
   background-repeat: no-repeat; }
 
 .appdetailsworkshopsection_WorkshopHightlight_1zmwc {
@@ -11252,7 +11252,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   .appdetailsworkshopsection_WorkshopSection_2PfKa .appdetailsworkshopsection_WorkshopSubCountFooter_3CjOR {
     width: 100%;
     height: 60px;
-    background-color: var(--DarkGreenBG);
+    background-color: var(--DarkGreyBG);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11287,7 +11287,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 .appdetailsworkshopsection_WorkshopItem_24o0B {
   width: 100%;
   height: 64px;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   display: flex;
   flex-direction: row;
   margin-top: 4px; }
@@ -11351,7 +11351,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   box-sizing: border-box;
   margin-top: 10px; }
   .appdetailsworkshopsection_VisitButtonContainer_1GHKp .appdetailsworkshopsection_VisitButton_AQr83 {
-    background-color: var(--DarkGreenBG);
+    background-color: var(--DarkGreyBG);
     height: 34px;
     color: #9f9fa0;
     font-size: 13px;
@@ -11418,7 +11418,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .appdetailsspotlight_ReviewContainer_3LE-6 {
   display: none;
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   box-sizing: border-box;
   border-style: solid;
   border-width: 1px;
@@ -11851,7 +11851,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
 
 .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
   height: 170px;
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   position: relative;
   padding: 10px 0px 5px 0px;
   border-radius: 3px;
@@ -12161,7 +12161,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     box-sizing: border-box;
     width: 100%;
 	padding: 0px 10px 0px 10px;
-    background-color: var(--GreenBG);
+    background-color: var(--GreyBG);
     font-size: 0px; }
   .appdetailsoverview_Container_27RcN .appdetailsoverview_Spotlights_11kuV {
     padding: 0px 10px 0px 10px;
@@ -12217,7 +12217,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   z-index: 1; }
 
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_ColumnContainer_OhSdL {
-  background: var(--DarkGreenBG); }
+  background: var(--DarkGreyBG); }
 
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_Backdrop_1Qa-A {
   width: 100%;
@@ -12234,7 +12234,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   height: 450px;
   width: 100%;
   backdrop-filter: blur(8px);
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   z-index: 0; }
   div.LowPerfMode .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_BackdropGlass_Jbe-- {
     backdrop-filter: none; }
@@ -12334,10 +12334,10 @@ div.sharescreenshotupload_Spoiler_tmUAv {
         z-index: 1;
         padding: 4px 8px;
         border-radius: 4px;
-        background-color: var(--DarkGreenBG);
+        background-color: var(--DarkGreyBG);
 		border-style: solid;
 		border-width: 1px;
-		border-color: var(--LightGreenBG);
+		border-color: var(--LightGreyBG);
         box-shadow: 0px 2px 8px 1px black;
         opacity: 0;
         pointer-events: none; }
@@ -12354,12 +12354,12 @@ div.sharescreenshotupload_Spoiler_tmUAv {
         .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase {
           font-size: 12px;
           padding: 2px 8px;
-          background: var(--DarkGreenBG);
+          background: var(--DarkGreyBG);
 		  border-style: solid;
 		  border-width: 1px;
 		  border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark); }
           .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase:hover {
-            background: var(--DarkGreenBG); }
+            background: var(--DarkGreyBG); }
       .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_ClearAction {
         width: 16px;
         height: 16px;
@@ -12695,7 +12695,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   border-width: 1px;
   border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
-  background: var(--DarkGreenBG)
+  background: var(--DarkGreyBG)
   
   transform-origin: 50% 50%;
   transform-style: preserve-3d;
@@ -12817,7 +12817,7 @@ div.sharescreenshotupload_Spoiler_tmUAv {
   font-size: 12px;
   text-align: center;
   z-index: 11;
-  background-color: var(--LightGreenBG);
+  background-color: var(--LightGreyBG);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
   border-radius: 3px;
   padding: 2px 16px;
@@ -13435,9 +13435,9 @@ div.sharescreenshotupload_Spoiler_tmUAv {
     box-sizing: border-box;
     padding: 0px;
     box-shadow: none !important;
-    border: 0.5px solid var(--LightGreenBG);
+    border: 0.5px solid var(--LightGreyBG);
     border-radius: 0;
-    background: var(--DarkGreenBG) !important;
+    background: var(--DarkGreyBG) !important;
     color: #fff; }
   .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
     box-sizing: border-box;
@@ -13632,7 +13632,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     top: 0;
     bottom: 0;
     z-index: -1;
-    background: var(--DarkGreenBG);
+    background: var(--DarkGreyBG);
     box-shadow: 0px 4px 4px #0004;
     opacity: var(--sticky-header-background-opacity);
     pointer-events: none; }
@@ -13755,7 +13755,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
 
 .collectionview_OuterContainer_2sNr7 {
   min-height: 100%;
-  background: var(--DarkGreenBG); }
+  background: var(--DarkGreyBG); }
 
 .collectionview_ContainerScroll_1vHgY {
   box-sizing: border-box;
@@ -14144,7 +14144,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   display: flex;
   flex-grow: 0;
   user-select: none;
@@ -14152,7 +14152,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   .gamelistsectionheader_Container_2sYIg:focus {
     outline: none; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_HoverOverlay_2zGph {
-    background-color: var(--DarkGreenBG);
+    background-color: var(--DarkGreyBG);
     border-radius: 3px; }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
     box-sizing: border-box;
@@ -14174,7 +14174,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
       color: var(--Maize); }
   .gamelistsectionheader_Container_2sYIg:hover {
     box-sizing: border-box;
-    background: var(--DarkGreenBG); }
+    background: var(--DarkGreyBG); }
   .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_DropOption_2iS5r {
     box-sizing: border-box;
     border-radius: 8px 8px 0px 0px;
@@ -14247,7 +14247,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   flex-shrink: 1;
   user-select: none;
   outline: none;
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   zoom: 83%; }
   .gamelist_Container_1ijTa .ReactVirtualized__Grid {
     outline: none; }
@@ -14298,18 +14298,18 @@ div.appgrid_CoverSizeSlider_U4J9B {
     cursor: pointer;
     padding: 3px 8px;
     padding-right: 5px;
-    background-color: var(--DarkGreenBG);
+    background-color: var(--DarkGreyBG);
     transition: none;
     align-items: center;
     height: 32px;
 	border-style: solid;
     border-width: 1px;
-    border-color: var(--LightGreenBG);
+    border-color: var(--LightGreyBG);
     border-radius: 3px;
     flex: 1; }
     .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
       color: #fff;
-      background-color: var(--DarkGreenBG); }
+      background-color: var(--DarkGreyBG); }
       .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover .gamelistdropdown_Arrow_15aGn polygon {
         fill: #fff; }
     .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m .gamelistdropdown_Arrow_15aGn {
@@ -14470,7 +14470,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     width: 32px;
     height: 32px;
     padding: 8px;
-    background-color: var(--GreenBG);
+    background-color: var(--GreyBG);
     border-style: solid;
     border-width: 1px;
     border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -14484,7 +14484,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     width: 32px;
     height: 32px;
     padding: 8px;
-    background-color: var(--GreenBG) !important;
+    background-color: var(--GreyBG) !important;
     border-style: solid;
     border-width: 1px;
     border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -14498,7 +14498,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     width: 32px;
     height: 32px;
     padding: 8px;
-    background-color: var(--GreenBG);
+    background-color: var(--GreyBG);
     border-style: solid;
     border-width: 1px;
     border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -14513,7 +14513,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
       stroke-width: 20px;
       stroke: darkgray; }
   .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow {
-    background-color: var(--GreenBG); }
+    background-color: var(--GreyBG); }
     .gamelistdropdown_ScrollToTop_uE7Pj:hover .SVGIcon_Arrow polyline {
       stroke: #fff; }
 
@@ -14610,7 +14610,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   position: relative; }
 
 .gamelistbar_Container_3x1Hk {
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   height: 100%;
   flex: 1;
   display: flex;
@@ -14629,7 +14629,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
     flex: 0 0 auto; }
 
 .gamelistbar_OneCollectionWarning_2Q95p {
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkGreyBG);
   margin: 0px 10px;
   padding: 2px 6px 6px;
   border-radius: 3px;
@@ -14640,7 +14640,7 @@ div.appgrid_CoverSizeSlider_U4J9B {
   font-size: 13px;
   color: #fff; }
   .gamelistbar_OneCollectionWarning_2Q95p:hover {
-    background-color: var(--DarkGreenBG); }
+    background-color: var(--DarkGreyBG); }
 
 .partnereventshared_PartnerEventFont_LK4bX {
   font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
@@ -20786,7 +20786,7 @@ textarea {
   filter: blur(30px) saturate(0.9); }
 
 .partnereventdisplay_DetailArtworkAgeNotAppropriate_3x5pK .partnereventdisplay_EventBackgroundBlur_stsss {
-  background: var(--DarkGreenBG);
+  background: var(--DarkGreyBG);
   background-image: none !important;
   opacity: 1; }
 
@@ -22012,7 +22012,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   color: rgba(255, 255, 255, 0.8);
-  background: var(--DarkGreenBG);  }
+  background: var(--DarkGreyBG);  }
   .libraryhome_InnerContainer_2AUVZ .SteamLogoThrobber {
     height: 100%;
     opacity: 0;
@@ -22588,7 +22588,7 @@ div.creatorhomeembed_SocialContainer_1o1Ds {
     fill: #fff; }
 
 .libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
-  background: var(--GreenBG);
+  background: var(--GreyBG);
   box-sizing: border-box;
   border-style: solid;
   border-width: 0.1px;
@@ -23394,7 +23394,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     border-radius: 2px;
     padding: 10px;
     margin-bottom: 0px;
-    background-color: var(--GreenBG);
+    background-color: var(--GreyBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright); }
@@ -23506,9 +23506,9 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     box-sizing: border-box;
     padding: 0px;
     box-shadow: 1px 8px 32px 1px #0009 !important;
-    border: 1px solid var(--LightGreenBG);
+    border: 1px solid var(--LightGreyBG);
     border-radius: 0;
-    background: var(--DarkGreenBG) !important;
+    background: var(--DarkGreyBG) !important;
     color: #fff;
     width: 200px;
     height: 100%;
@@ -23521,7 +23521,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
       border: 4px solid transparent;
       background-image: none; }
       .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-thumb:hover {
-        background-color:var(--GreenBG);
+        background-color:var(--GreyBG);
         background-clip: padding-box; }
     .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-track, .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-button {
       display: none; }
@@ -23567,7 +23567,7 @@ div.NarrowRightPanel .libraryhomefriendsactivity_LibraryAutomatic_3AWBh .library
     flex-grow: 1;
     height: 0;
     align-self: center;
-    background-color: var(--DarkGreenBG);
+    background-color: var(--DarkGreyBG);
     transition: all .21s ease-in-out; }
   .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a {
     padding: 4px 8px;
@@ -23757,7 +23757,7 @@ img {
 
 ::-webkit-scrollbar-thumb {
   width: 10px;
-  background-color: var(--GreenBG);
+  background-color: var(--GreyBG);
   border-radius: 10px;
   z-index: 12;
   border: 4px solid rgba(0, 0, 0, 0);
@@ -23768,10 +23768,10 @@ img {
   min-width: 32px; }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--GreenBG); }
+  background: var(--GreyBG); }
 
 ::-webkit-scrollbar-corner {
-  background: var(--GreenBG); }
+  background: var(--GreyBG); }
 
 ::selection {
   background: var(--MaizeBG);
